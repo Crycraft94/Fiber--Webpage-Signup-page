@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'Inter', sans-serif;
+}
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+body{
+ background: linear-gradient(to right, white 50%, #4d13d1 50%);
+}
+/* ///////////Form////////// */
+
+main .form-row .title .logo a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+   
+}
+main .form-row {
+    margin-top: 50px;
+    padding-left: 50px;
+}
+main .form-row .title .logo{
+    margin-bottom: 40px;
+}
+main .form-row .title .info{
+    margin-bottom: 50px;
+   
+}
+.title .info h1{
+    font-size: 36px;
+    font-weight: 700;
+}
+.form-container .form-row{
+    max-width: 100%;
+}
+form{
+    width: 80%;
+}
+form .form-check-label a{ 
+    color: #4d13d1;
+    font-weight: bold;
+}
+form  .button button{
+    background-color: #4d13d1;
+    font-weight: bold;
+    
+}
+form .already a{
+    color: #4d13d1;
+    text-decoration: none;
+}
+form input.form-control{
+   padding-block: 15px;
+}
+/* ///////////////////SLIDER//////////// */
+.carousel-cell {
+	width: 100%;
+}
+
+.carousel-cell img {
+	width: 100%;
+	height: auto;
+  
+}
+
+/* Ensures that Flickity waits until CSS has loaded to calculate the height of the cells */
+.carousel:after {
+  content: 'flickity';
+  display: none; /* hide :after */
+}
+.flickity-page-dots  li{
+    background-color:white !important; 
+}
+/* /////////////////////////// */
+.slider-container{
+    min-height: 905px;
+    background-color: #4d13d1;
+}
+
+.slider{
+    margin-top: 120px;
+    margin-left: 100px;
+    width: 85%;
+}
+.carousel-cell .text p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 80%;
+    margin: 0.3rem auto;
+   font-size: 1.1rem;
+   color: #e5ddfd;
+}
+
+.carousel-cell .text h1{
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* //////////////////RESPONSIVE///////////////////  */
+@media screen and (max-width:576px) {
+   .purple-col{
+    display: none;
+   }
+   body{
+    background: linear-gradient(to right, white 50%, #ffffff 50%);
+   }
+   main .form-row{
+     margin-inline: 0;
+     padding-left: 0;
+   }
+   form{
+    width: 100%;
+   }
+}
+@media screen and (max-width:992px) {
+    .purple-col{
+     display: none;
+    }
+    body{
+     background: linear-gradient(to right, white 50%, #ffffff 50%);
+    }
+    main .form-row{
+      margin-inline: 0;
+      padding-left: 0;
+    }
+    form{
+     width: 100%;
+    }
+ }
